@@ -1,0 +1,195 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+	background: url(../img/bg.jpg) 0 0/cover no-repeat fixed;
+}
+.block{
+	
+	background: blueviolet;
+
+	height: 300px;
+	box-shadow: 0 0 10px #000;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+}
+.block2{
+	
+	background: url(../img/bg_repeat.jpg);
+
+	height: 300px;
+	box-shadow: 0 0 10px #000;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+}
+.block3{
+		
+	background: url(../img/bg_repeat.jpg) 0 0 no-repeat;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px #000;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+}
+.block4{
+			
+	background: url(../img/bg_repeat.jpg) 0 0 repeat-x;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
+.block5{
+				
+	background: url(../img/bg_repeat.jpg) 0 0 repeat-y;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
+.block6{
+					
+	background: url(../img/bg_repeat.jpg) space;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
+.block7{
+						
+	background: url(../img/avatar_3.jpg) round;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
+.block8{
+							
+	background: url(../img/bg.jpg) 0 0 / contain no-repeat;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
+.block9{
+							
+	background: url(../img/bg.jpg) 0 0 / cover no-repeat;
+	background-color: #fff;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
+.block10{
+								
+	background: url('../img/avatar.jpg') 0 0/50px no-repeat, url('../img/avatar_2.jpg') 100% 100%/50px no-repeat, url('../img/avatar_3.jpg') 50% no-repeat, url('../img/bg.jpg') 50%/cover no-repeat;
+
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin: 20px 20px 20px ;
+	border-radius: 10px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 700;
+}
